@@ -5,6 +5,7 @@ body {
 
 .container {
   margin: 2rem;
+  padding-top: 2vh;
 }
 
 h1 {
@@ -13,5 +14,21 @@ h1 {
 
 h2 {
   color: gold;
-  text-shadow: -3px 2px 0px #9B9DA8;
+  -webkit-text-fill-color: gold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 690px) {
+  .container {
+    padding-top: 1vh;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    -webkit-text-stroke-width: 1.5px;
+  }
 }
