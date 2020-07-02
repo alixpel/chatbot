@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 2rem;
+}
+
+h1 {
+  color: #a34adf;
+}
+
+h2 {
+  color: gold;
+  text-shadow: -3px 2px 0px #9B9DA8;
+}
